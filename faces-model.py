@@ -70,5 +70,5 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 
 model.fit(X_train.reshape(-1, 150, 150, 1), y_train, epochs=50, validation_data=(X_test.reshape(-1, 150, 150, 1), y_test))
 
-export_path = 'face-model/1/'
+export_path = 'faces-model/1/'
 tf.saved_model.save(model, os.path.join('./',export_path))
