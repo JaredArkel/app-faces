@@ -22,7 +22,7 @@ data = pathlib.Path(directory)
 
 labels = []
 images = []
-listPersons = ['Chris Evans', 'Chris Hemsworth', 'Mark Ruffalo', 'Robert Dowey Jr', 'Scarlett Johansson']
+listPersons = ['Chris Evans', 'Chris Hemsworth', 'Mark Ruffalo', 'Robert Downey Jr', 'Scarlett Johansson']
 
 size = 64,64
 print('folders')
