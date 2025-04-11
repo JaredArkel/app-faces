@@ -12,7 +12,7 @@ import pathlib
 # Set the path of the input folder
 
 dataset = "https://drive.google.com/uc?export=download&id=1Y4GEnPImBTBJgdYOS3qVPOeH_5G9y0ns"
-directory = tf.keras.utils.get_file('losmasguaposdeltec.tgz', origin=dataset, untar=True)
+directory = tf.keras.utils.get_file('si.tgz', origin=dataset, untar=True)
 data = pathlib.Path(directory)
 
 #print(folders)
