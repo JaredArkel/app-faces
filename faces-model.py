@@ -11,7 +11,7 @@ import shutil
 
 # Descargar y descomprimir el dataset desde Google Drive
 dataset_url = "https://drive.google.com/uc?export=download&id=1ThUklHdF9_LhujOFvg6-2kxqB79vnO92"
-directory = tf.keras.utils.get_file('losmasguaposdeltec.tgz', origin=dataset_url, untar=True)
+directory = tf.keras.utils.get_file('losmasguaposdeltec', origin=dataset_url, untar=True)
 data = pathlib.Path(directory)
 
 # Lista de carpetas/personas esperadas
